@@ -18,7 +18,7 @@ function createMovieCard(movie) {
         <div class="col-md-4 mb-4">
             <a href="${movie.reviewUrl}" class="card-link" target="_blank"> <!-- Use reviewUrl here -->
                 <div class="card hoverable-card">
-                    <img class="card-img-top" src="./images/${encodeURI(movie.title.toLowerCase().replace(/\s+/g, '_'))}.jpg" alt="${movie.title}">
+                    <img class="card-img-top" src="../images/${encodeURI(movie.title.toLowerCase().replace(/\s+/g, '_'))}.jpg" alt="${movie.title}">
                     <div class="card-body">
                         <h5 class="card-title">${movie.title} (${movie.year})</h5>
                         <p class="card-text">Genre: ${movie.genre.charAt(0).toUpperCase() + movie.genre.slice(1)}<br>Language: ${movie.language}</p>
