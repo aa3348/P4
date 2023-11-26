@@ -1,0 +1,161 @@
+<!--DEVELOPER: Andrew Anil George, IS117-005, Fall 2023-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - AAG Movie Reviews</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./styles/styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="./index.html">AAG Movie Reviews</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active"><a class="nav-link" href="./index.html">Home</a></li>
+                
+                <!-- Reviews Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownReviews" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Reviews
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownReviews">
+                        <a class="dropdown-item" href="./latest_reviews.html">Latest Reviews</a>
+                        <a class="dropdown-item" href="./by_genre.html">By Genre</a>
+                        <a class="dropdown-item" href="./by_language.html">By Language</a>
+                    </div>
+                </li>
+
+                <!-- Updates Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownUpdates" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Updates
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownUpdates">
+                        <a class="dropdown-item" href="./upcoming_releases.html">Upcoming Releases</a>
+                        <a class="dropdown-item" href="./trailers.html">Trailers</a>
+                    </div>
+                </li>
+
+                <!-- Features Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownFeatures" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Features
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownFeatures">
+                        <a class="dropdown-item" href="./interviews.html">Interviews</a>
+                        <a class="dropdown-item" href="./behind_the_scenes.html">Behind-the-scenes</a>
+                    </div>
+                </li>
+
+                <li class="nav-item"><a class="nav-link" href="./forum.html">Forum</a></li>
+                <li class="nav-item"><a class="nav-link" href="./contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Introduction Section -->
+    <div class="jumbotron">
+        <h1 class="display-4">Welcome to AAG Movie Reviews!</h1>
+        <p class="lead">Your ultimate source for movie reviews, updates, and more.</p>
+    </div>
+<!-- Movie Carousel -->
+<div id="movieCarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <!-- Movie 1: Anjaam Pathiraa -->
+        <div class="carousel-item active">
+            <a href="https://www.imdb.com/title/tt10717738/reviews/?ref_=ttrt_ql_2">
+                <img class="d-block w-100 carousel-img" src="./images/anjaam_pathiraa.jpg" alt="Anjaam Pathiraa">
+            </a>
+        </div>
+
+        <!-- Movie 2: Kannur Squad -->
+        <div class="carousel-item">
+            <a href="https://www.imdb.com/title/tt25274786/reviews/?ref_=ttrt_ql_2">
+                <img class="d-block w-100 carousel-img" src="./images/kannur_squad.jpg" alt="Kannur Squad">
+            </a>
+        </div>
+
+        <!-- Movie 3: Yennai Arindhaal -->
+        <div class="carousel-item">
+            <a href="https://www.imdb.com/title/tt4258292/reviews/?ref_=ttrt_ql_2">
+                <img class="d-block w-100 carousel-img" src="./images/yennai_arindhaal.jpg" alt="Yennai Arindhaal">
+            </a>
+        </div>
+
+        <!-- Movie 4: Mahaan -->
+        <div class="carousel-item">
+            <a href="https://www.imdb.com/title/tt12472554/reviews/?ref_=tt_ql_2">
+                <img class="d-block w-100 carousel-img" src="./images/mahaan.jpg" alt="Mahaan">
+            </a>
+        </div>
+
+        <!-- Movie 5: Rush Hour -->
+        <div class="carousel-item">
+            <a href="https://www.imdb.com/title/tt0120812/reviews/?ref_=ttrt_ql_2">
+                <img class="d-block w-100 carousel-img" src="./images/rush_hour.jpg" alt="Rush Hour">
+            </a>
+        </div>
+
+        <!-- Movie 6: Johnny English -->
+        <div class="carousel-item">
+            <a href="https://www.imdb.com/title/tt0274166/reviews/?ref_=ttrt_ql_2">
+                <img class="d-block w-100 carousel-img" src="./images/johnny_english.jpg" alt="Johnny English">
+            </a>
+        </div>
+
+        <!-- Movie 7: Bangalore Days -->
+        <div class="carousel-item">
+            <a href="https://www.imdb.com/title/tt3668162/reviews/?ref_=ttrt_ql_2">
+                <img class="d-block w-100 carousel-img" src="./images/bangalore_days.jpg" alt="Bangalore Days">
+            </a>
+        </div>
+
+        <!-- Movie 8: 100 Days of Love -->
+        <div class="carousel-item">
+            <a href="https://www.imdb.com/title/tt3995348/reviews/?ref_=ttrt_ql_2">
+                <img class="d-block w-100 carousel-img" src="./images/100_days_of_love.jpg" alt="100 Days of Love">
+            </a>
+        </div>
+
+        <!-- Movie 9: Ohm Shanthi Oshaana -->
+        <div class="carousel-item">
+            <a href="https://www.imdb.com/title/tt3517192/reviews/?ref_=tt_ql_2">
+                <img class="d-block w-100 carousel-img" src="./images/ohm_shanthi_oshaana.jpg" alt="Ohm Shanthi Oshaana">
+            </a>
+        </div>
+    </div>
+
+    <!-- Carousel controls -->
+    <a class="carousel-control-prev" href="#movieCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#movieCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-3">
+        © 2023, Andrew Anil George
+        <p class="mt-2">
+            <a href="./terms_of_use.html" class="text-white">Terms of Use</a>
+        </p>
+    </footer>
+    
+
+    <!-- Bootstrap and jQuery Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="/scripts/filter.js"></script>
+
+</body>
+</html>
