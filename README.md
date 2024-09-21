@@ -20,7 +20,7 @@ Originally developed as the final assignment for the IS 117 Web Development cour
    ```bash
    cd aag-movie-reviews
    ```
-3. Open the index.html in your preferred web browser to view the site.
+3. Open the `index.html` file in your preferred web browser to view the site.
 
 ## Disclaimer
 This project is for educational purposes only and is part of a web development class assignment.
